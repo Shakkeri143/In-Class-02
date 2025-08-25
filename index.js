@@ -17,3 +17,12 @@ const heading = document.createElement('h1');
 heading.textContent = 'Hello, World!';
 
 root.append(title, heading);
+
+
+const jsButton = document.getElementById('jsButton');
+
+
+jsButton.addEventListener('click', () => {
+    alert('Hello! You clicked the custom button!');
+});
+
