@@ -10,6 +10,9 @@ button.addEventListener('click', () => {
 const title = document.createElement("h2");
 title.innerHTML = "This is a paragraph rendering within the div id container";
 
+
+
+
 const heading = document.createElement('h1');
 heading.textContent = 'Hello, World!';
 
